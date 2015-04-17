@@ -1,5 +1,5 @@
 <article class="contenido">
-    <? echo anchor('product/carrito','Ver carrito');?>
+    <?php echo anchor('product/carrito','Ver carrito');?>
     <hr>
     <table border="1" cellspacing="0" cellpadding="10">
         <tr>
@@ -10,7 +10,7 @@
             <th>Cantidad</th>
             <th></th>
         </tr>
-        <form action="<? echo base_url(); ?>product/agregar_carrito" method="post">
+        <form action="<?php echo base_url(); ?>product/agregar_carrito" method="post">
             <tr>
                 <td>
                     cod_001
@@ -48,7 +48,7 @@
                 </td>
             </tr>
         </form>
-        <form action="<? echo base_url(); ?>product/agregar_carrito" method="post">
+        <form action="<?php echo base_url(); ?>product/agregar_carrito" method="post">
             <tr>
                 <td>
                     cod_054
@@ -87,7 +87,7 @@
                 </td>
             </tr>
         </form>
-        <form action="<? echo base_url(); ?>product/agregar_carrito" method="post">
+        <form action="<?php echo base_url(); ?>product/agregar_carrito" method="post">
             <tr>
                 <td>
                     cod_769
